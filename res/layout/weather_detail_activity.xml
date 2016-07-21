@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#20a6ff"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <include layout="@layout/main_head" />
+
+    <TextView
+        android:id="@+id/publishTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:padding="10dp"
+        android:text="今天18:00发布"
+        android:textColor="#fefaa0"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/dateToday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="2016年6月13日"
+        android:textColor="#fefaa0"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tempare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="9~21"
+        android:textColor="#fefaa0"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/weather"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="多云转小雨"
+        android:textColor="#fefaa0"
+        android:textSize="20sp" />
+
+</LinearLayout>
